@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xx\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\xx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -65,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\xx\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\xx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +105,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\xx\\source\\repos\\ReCapProject_20.02.2021\\Core\\Core.csproj"
               }
             }
           }
